@@ -44,7 +44,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CCFF33</string>
+				<string>#00BF02</string>
 			</dict>
 		</dict>
 		<dict>
@@ -75,13 +75,13 @@
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword</string>
+			<string>keyword, storage.modifier</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FF6600C7</string>
+				<string>#FF6600</string>
 			</dict>
 		</dict>
 		<dict>
@@ -138,7 +138,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string</string>
+			<string>string, entity.name.symbol</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -154,17 +154,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#AAAAAA</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>String (literal)</string>
-			<key>scope</key>
-			<string>string.literal</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#CCCC33</string>
 			</dict>
 		</dict>
 		<dict>
@@ -186,7 +175,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#0000FF8C</string>
+				<string>#FFFF0080</string>
 			</dict>
 		</dict>
 		<dict>
@@ -199,7 +188,7 @@
 				<key>fontStyle</key>
 				<string>italic underline</string>
 				<key>foreground</key>
-				<string>#0000FF9E</string>
+				<string>#FFFF0080</string>
 			</dict>
 		</dict>
 		<dict>
@@ -234,12 +223,12 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DDE93D</string>
+				<string>#F8B582</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Volatile Identifier</string>
+			<string>Attention Keyword</string>
 			<key>scope</key>
 			<string>keyword.declaration.volatile, keyword.control.flow.jump</string>
 			<key>settings</key>
