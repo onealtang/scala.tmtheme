@@ -38,9 +38,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Ruby Number</string>
+			<string>Number</string>
 			<key>scope</key>
-			<string>constant.numeric.ruby</string>
+			<string>constant.numeric.scala</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -65,8 +65,10 @@
 			<string>constant</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#339999</string>
+				<string>#00BF02</string>
 			</dict>
 		</dict>
 		<dict>
@@ -79,20 +81,20 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FF6600</string>
+				<string>#FF6600C7</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Function name</string>
 			<key>scope</key>
-			<string>entity.name.function, storage.type.function.js</string>
+			<string>entity.name</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FFCC00</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -116,14 +118,14 @@
 				<key>background</key>
 				<string>#070707</string>
 				<key>foreground</key>
-				<string>#772CB7</string>
+				<string>#9933CC</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.other</string>
+			<string>variable.other, variable.parameter</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -140,7 +142,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#66FF00</string>
+				<string>#00BF02</string>
 			</dict>
 		</dict>
 		<dict>
@@ -169,11 +171,22 @@
 			<key>name</key>
 			<string>Class name</string>
 			<key>scope</key>
-			<string>entity.name.class, support.class.js</string>
+			<string>entity.name.class</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>underline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Type Name</string>
+			<key>scope</key>
+			<string>entity.name.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0000FF8C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -185,6 +198,8 @@
 			<dict>
 				<key>fontStyle</key>
 				<string>italic underline</string>
+				<key>foreground</key>
+				<string>#0000FF9E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -196,19 +211,6 @@
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Html Meta</string>
-			<key>scope</key>
-			<string>meta.tag.inline.any.html,  meta.tag.block.any.html</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#FF6600</string>
 			</dict>
 		</dict>
 		<dict>
@@ -233,6 +235,28 @@
 			<dict>
 				<key>foreground</key>
 				<string>#DDE93D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Volatile Identifier</string>
+			<key>scope</key>
+			<string>keyword.declaration.volatile, keyword.control.flow.jump</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF0000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Stable Identifier</string>
+			<key>scope</key>
+			<string>variable.stable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00B0B0</string>
 			</dict>
 		</dict>
 	</array>
